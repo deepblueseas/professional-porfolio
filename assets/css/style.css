@@ -1,0 +1,55 @@
+:root {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(242, 239, 213);
+}
+
+.container {
+    margin: 5px;
+    padding: 10px;
+    border: 10px;
+    background-color: pale blue;
+
+}
+
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#h1 {
+    color:red;
+    background-color: white;
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+    border: 2px grey solid;
+    position: relative;
+    left: 40px;
+    
+
+   
+    
+
+}
+
+li {
+    list-style-type: none;
+    font-style: bold;
+    display: inline;
+    justify-content: space-between;
+    margin: 40px;
+    margin-top: 5%;
+    padding: 20px;
+    position: relative;
+    left: 250px;
+    top: 50px;
+    
+    
+}
+
+#img {
+    display: block;
+    position: center;
+    justify-content: center;
+}
