@@ -8,15 +8,15 @@
     </head>
 
     <body> 
-        <div class="nav"> <!--contains the h1 and nav-->
+        <div class="header"> <!--contains the h1 and nav-->
             <header>
-                <nav>
+                <nav class="header">
                     <h1>Tess McGovern</h1>
                             <ul>
-                                <li>About Me</li> <!--add small pseudo cats here before each li-->
+                                <li> <a href="#aboutme" >About Me</a> </li> <!--add small pseudo cats here before each li-->
                                 <li>Work</li>
                                 <li>Contact Me</li>
-                                <li>Resume</li>
+                                <li>Resume - in progress</li>
                             </ul>      
                 </nav>
             </header>
@@ -26,37 +26,51 @@
             <figure>   
                 <img src="" alt="placeholder image" />
             <figure>
+                <h3>Github @ deepblueseas</h3>
         </div>
 
 
         <main>
-            <article>
-                <h2>About Me</h2>
-                    <p> Hello! I am happy to be on this coding journey.  I have 
-                        a bachelors in history and philosophy, and experience working
-                        in libraries and cafes.</p>
-            </article>
+            <div class="aboutme">
+                <article class="article">
+                    <h2>About Me</h2>
+                        <p> Hello! My name is Tess McGovern and I'm very happy to be enrolled in 
+                            the CWRU Coding Bootcamp.  My educational background
+                            is in the humanities, but I've always enjoyed spending time on
+                            and learning how computers work.  So when it felt like time for a 
+                            career change, coding seemed like the right choice.  In the 
+                            last couple of years, I worked in several local libraries,
+                            and am interested in seeing where knowledge of app designs
+                            combined with work in libraries could take me.</p> <p>Or maybe I'll
+                            embark on a completely different path!
+                            </p>  <p>I love my cats, knitting, and movies - especially
+                                the horror genre.
+                        </p>
+                </article>
+            </div>
 
-            <article>
-                <h2>Work</h2>
-                <figure>   
-                    <imgsrc="images/atlantic-rocks.jpg" alt="placeholder image" />
-                <figure>
-                <figure>   
-                    <img src="images/ocean-photo-cropped.jpg" alt="placeholder image" />
-                <figure>
-                <figure>   
-                    <img src="" alt="placeholder image" />
-                <figure>
-                <figure>   
-                    <img src="" alt="placeholder image" />
-                <figure>
-                    <!--hover-over with images here-->
-            </article>     
+            <div >
+                <article class="work">
+                    <h2>Work</h2>
+                    <figure>   
+                        <img class="img" src="images/surfreport.jpg" alt="placeholder image" />
+                    </figure>
+                    <figure>   
+                        <img class="subimg" src="images/scout+yarn.jpg" alt="placeholder image" />
+                    </figure>
+                    <figure>   
+                        <img class="subimg" src="" alt="placeholder image" />
+                    </figure>
+                    <figure>   
+                        <img class="subimg" src="" alt="placeholder image" />
+                    </figure>
+                        <!--hover-over with images here-->
+                </article>
+            </div>     
 
-            <article class="article">
+            <article class="contact">
                 <h2>Contact Me</h2>
-                    <ul class="ul">
+                    <ul>
                         <li>Email</li> <!--review adding emails-->
                         <li>GitHub</li>
                         <li>LinkdIn</li>
