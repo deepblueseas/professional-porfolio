@@ -1,8 +1,8 @@
 ## Professional Porfolio
 
 # Project Goal
--AS A new developer
--MY GOAL was to create a portfolio
--USING HTML and CSS
--TO DISPLAY my contact info, resume, about me, and any current projects
--THIS PAGE should be responsive and links working correctly
+-AS A new developer <br>
+-MY GOAL was to create a portfolio <br>
+-USING HTML and CSS <br>
+-TO DISPLAY my contact info, resume, about me, and any current projects <br>
+-THIS PAGE should be responsive and links working correctly <br>
