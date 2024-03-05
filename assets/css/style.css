@@ -4,18 +4,18 @@ hopefully she makes others laugh, too*/
 
 :root {
     --font-family: Georgia, 'Times New Roman', Times, serif;
-    /*background-color: rgb(242, 239, 213);*/
-    --background-color: light blue;
+    
 }
 
 
 body{
     font: var(--font-family);
-    background-color: var(--background-color);
+    background-color: lightblue;
 }
 
-/*header section*/
+
 div.header { 
+    width: 100%;
     background-color: #6A5ACD; 
 }
 
@@ -32,6 +32,14 @@ h1 h2 {
     background-color: antiquewhite;
     
     
+}
+
+#topimage {
+    
+}
+
+#h3 {
+    text-align: right;
 }
 
 
@@ -110,15 +118,23 @@ article.work {
 
 }  
 
-
-/*footer section*/
-article.contact {
+article.contact-me {
     display: flex;
-    margin: 20px 5px 20px 50px;   
+    flex: wrap;
+    margin: 10px 10px 10px 50px;
+    
+
 }
 
-#contactme {
-    display: flex;
-    flex-direction: row;
+  
+ 
+
+.contact-li {
+    padding: 50px;
+      
+}
+
+
+.footer {
     text-align: center;
 }
