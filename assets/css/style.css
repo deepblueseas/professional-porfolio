@@ -10,13 +10,12 @@ hopefully she makes others laugh, too*/
 
 body{
     font: var(--font-family);
-    background-color: lightblue;
+    background-color: #adcae6;
 }
 
 
 div.header { 
-    width: 100%;
-    background-color: #6A5ACD; 
+    background-color: antiquewhite; 
 }
 
 nav.header {
@@ -26,16 +25,18 @@ nav.header {
     justify-content: space-between;
 }
 
-h1 h2 {
-    font-weight: bold;
-    border-color: antiquewhite;
-    background-color: antiquewhite;
-    
+h1 {
+    color: black;
+    font-weight: bold; 
     
 }
 
+h2 {
+    font-weight: bold;
+}
+
 #topimage {
-    
+
 }
 
 #h3 {
@@ -47,18 +48,28 @@ ul { /*selecting all ul to remove bullets*/
     list-style-type: none; 
 }
 
-li {
+li { /*this now only affects Resume*/
     font-weight: bold;
     text-decoration: underline;
     display: inline;
     margin: 45px;
     
-    
-    
 }
 
 li:hover {
     color:aqua;
+}
+
+a:link {
+    color: black; 
+    /*unsure why this does not
+    change the nav links to black, further research
+    required*/   
+}
+
+a:hover {
+    color:aqua;
+    /*where as this does work!*/
 }
 
 
@@ -138,3 +149,20 @@ article.contact-me {
 .footer {
     text-align: center;
 }
+
+
+
+
+/*tablet size i saw this commonly listed on
+stack overflow and other general google searches as 
+tablet size even though this differs from the 992px listed
+in the CWRU example*/
+@media screen and (max-width: 768px) {
+    body {
+        background-color: antiquewhite;
+    }
+
+}
+
+
+/*
