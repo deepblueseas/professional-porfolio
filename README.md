@@ -13,14 +13,11 @@
 -I am getting more comfortable with css <br>
 -The basic elements of the page are there <br>
 -The page deployed properly <br>
--I am getting better at remembering to comment my CSS <br>
 
 ### Incompletions/Things to Finish
--I need to finish linking my contacts <br>
 -The images in the Work article have not yet been formatted
     correctly.  I would like them to have a hover effect even if they
-    don't link yet. And my git repos image should link to my GitHub 
-    repos <br>
+    don't link yet <br>
 -README still needs images <br>
 -The CSS is very messy and in progress <br>
 
@@ -31,5 +28,5 @@
  ### Update 3/6
 
  ## Credit
--Top Image credit to Mark Spiske on Pexels: https://www.pexels.com/photo/coding-script-965345/
+-Top Image credit to Mark Spiske on Pexels: https://www.pexels.com/photo/coding-script-965345/ <br>
     --insert image example of this once repeating images is figured out and updated
