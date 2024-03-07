@@ -1,8 +1,6 @@
 :root {
-    --font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    --font-family: Georgia, 'Times New Roman', Times, serif;  
 }
-
 
 body{
     font: var(--font-family);
@@ -14,6 +12,7 @@ div.header {
     background-color: antiquewhite; 
 }
 
+
 nav.header {
     margin: 20px 5px 20px 50px;
     display: flex; 
@@ -21,19 +20,18 @@ nav.header {
     justify-content: space-between;
 }
 
-h1 {
+h1 h2 {
     color: black;
-    font-weight: bold; 
+    font-weight: bold;  
+}
+
+#topimageleftmargin {
     
 }
 
-h2 {
-    font-weight: bold;
-}
-
 #topimage {
-    display: flex;
     width: 100vw;
+    height: 150px;
 
 
 }

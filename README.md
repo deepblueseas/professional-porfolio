@@ -27,3 +27,9 @@
 ### Overall
 -I'm relatively happy with my progress, know what I need to work on, and will continue to work on this project after my shift tomorrow.
 
+---------
+ ### Update 3/6
+
+ ## Credit
+-Top Image credit to Mark Spiske on Pexels: https://www.pexels.com/photo/coding-script-965345/
+    --insert image example of this once repeating images is figured out and updated
