@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head> <!--nec. meta info-->
+    <head> 
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width" />
         <title>Tess McGovern Professional Portfolio</title>
@@ -8,37 +8,34 @@
     </head>
 
     <body> 
-        <div class="header"> <!--contains the h1 and nav-->
+        <div class="header"> 
             <header>
                 <nav class="header">
-                    <h1>Tess McGovern</h1>
+                    <h1 id="h1">Tess McGovern</h1>
                             <ul>
-                                <li class="nav-li"> <a href="#aboutme_id">About Me</a></li> 
-                                <li class="nav-li"> <a href="#work_id">Work</a></li>
-                                <li class="nav-li"> <a href="#contactme_id" >Contact Me</a></li>
+                                <li class="nav-li"> <a id="link" href="#aboutme_id" >About Me</a></li> 
+                                <li class="nav-li"> <a href="#work_id" id="link">Work</a></li>
+                                <li class="nav-li"> <a href="#contactme_id" id="link">Contact Me</a></li>
                                 <!--<li>Resume - no link yet</li>-->
                             </ul>      
                 </nav>
             </header>
         </div> 
 
-        <div id="topimageleftmargin">  
+        <div>  
             <figure>
                 <img id="topimage" src="images\pexels-markus-spiske-965345.jpg" alt="placeholder image" />
             </figure> <!--for figure credit see README-->
+            <section id="h3container">
+                <h3 id="h3"> <a href="https://github.com/deepblueseas">Github @ deepblueseas</a></h3>
+            </section>
         </div>
-        <div id="h3container">
-            <!--the 'cool subtitle that ideally was supposed to be
-                moved into the top image--> 
-                <h3> <a href="https://github.com/deepblueseas">Github @ deepblueseas</a></h3>
-        </div>
-    </div>
 
 
-        <main> <!--i think there is a way this could have been done with an aside-->
+        <main id="main"> <!--i think there is a way this could have been done with an aside-->
             <div id="aboutme_id">
                 <article class="article">
-                    <h2>About Me</h2>
+                    <h2 class="h2">About Me</h2>
                     <div>
                         <p> <!--will work with career services on a good paragraph to go here.
                             but for now i can style this--> 
@@ -67,18 +64,16 @@
                 <article class="work">
                     <h2 class="h2">Work</h2>
                         <div class="images">
-                            <div>
-                                <figure id="largerimage">   
+                                <figure class="largerimage">   
                                     <img class="subimg" src="images/github.jpg" alt="placeholder image" />
                                 </figure>
-                            </div>
-                                <figure>   
-                                        <img class="subimg" src="images/surfreport.jpg" alt="placeholder image" />
+                                <figure class="images">   
+                                    <img class="subimg" src="images/surfreport.jpg" alt="placeholder image" />
                                 </figure> <!--'surf report'-->
-                                <figure>   
+                                <figure class="images">   
                                     <a href="https://github.com/deepblueseas/horiseon-refactor"><img class="subimg" src="images/horiseon-refactor.jpg" alt="Image of a website called 'Horiseon. Several employees meet around a table to go over papers in the main image'" /> </a> 
                                 </figure> 
-                                <figure>   
+                                <figure class="images">   
                                     <img class="subimg" src="images/github.jpg" alt="an image of Tess McGovern's GitHub Profile" />
                                 </figure> 
                         </div>
@@ -88,14 +83,12 @@
 
             <div id="contactme_id">
             <article class="contact-me">
-                <h2>Contact Me</h2>
-                    
-                    <ul > <!--finish linking these-->
-                        <li class="contact-li"><a href=mailto:"ren.mcgovern@gmail.com">Email Me</a></li>
+                <h2 class="h2">Contact Me</h2>
+                    <ul >
+                        <li class="contact-li"><a href=mailto:"scoutcodes@gmail.com">Email Me</a></li>
                         <li class="contact-li"><a href="https://github.com/deepblueseas">GitHub</a></li>
-                        <li class="contact-li">LinkdIn - in progress</li>
+                        <!--<li class="contact-li">LinkdIn - in progress</li>-->
                     </ul>
-                
             </article>
         </div>
         </main>
@@ -103,7 +96,7 @@
         <footer class="footer">
             <br>
             <br>
-            <p>&#128170; Made in Bootcamp Week 3 <br> Spring 2024 </p>
+            <p>&#128170; Made in CWRU Bootcamp<br> Spring 2024 </p>
         </footer>
 
     </body>
