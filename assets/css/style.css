@@ -10,28 +10,41 @@ body{
 
 div.header { 
     background-color: antiquewhite; 
+    margin: 20px 20px 20px 20px;
 }
 
 
 nav.header {
-    margin: 20px 5px 20px 50px;
+    margin: 20px 20px 20px 50px;
     display: flex; 
-    flex-direction: wrap;
+    flex-direction: row;
     justify-content: space-between;
 }
+
+/*.nav-li {
+    margin-top: 20px;
+}*/
 
 h1 h2 {
     color: black;
     font-weight: bold;  
 }
 
-#topimageleftmargin {
+#topleftmargin {
+    height: 150px;
     
 }
 
 #topimage {
-    width: 100vw;
-    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 200px;
+    
+    
+    
+    
 
 
 }
@@ -64,9 +77,10 @@ ul { /*selecting all ul to remove bullets*/
     list-style-type: none; 
 }
 
-li { /*this now only affects Resume*/
+li {
     font-weight: bold;
-    text-decoration: underline;
+    text: black;
+    /*text-decoration: underline;*/
     display: inline;
     margin: 45px;
     
@@ -77,10 +91,8 @@ li:hover {
 }
 
 a:link {
-    color: black; 
-    /*unsure why this does not
-    change the nav links to black, further research
-    required*/   
+    text-decoration: none;
+     
 }
 
 a:hover {
@@ -114,6 +126,7 @@ div.images {
 }
 
 #largerimage {
+
     
 }
 
